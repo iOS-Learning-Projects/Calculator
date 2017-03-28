@@ -12,6 +12,7 @@
 		E805C6511E89AD3F00D6CA43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E805C64F1E89AD3F00D6CA43 /* Main.storyboard */; };
 		E805C6531E89AD3F00D6CA43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E805C6521E89AD3F00D6CA43 /* Assets.xcassets */; };
 		E805C6561E89AD3F00D6CA43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E805C6541E89AD3F00D6CA43 /* LaunchScreen.storyboard */; };
+		E8E387441E8AFCEC00225AAB /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8E387431E8AFCEC00225AAB /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E805C6521E89AD3F00D6CA43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E805C6551E89AD3F00D6CA43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E805C6571E89AD3F00D6CA43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8E387431E8AFCEC00225AAB /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +56,9 @@
 		E805C64A1E89AD3F00D6CA43 /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
-				E805C64D1E89AD3F00D6CA43 /* ViewController.swift */,
+				E8E387431E8AFCEC00225AAB /* CalculatorBrain.swift */,
 				E805C64F1E89AD3F00D6CA43 /* Main.storyboard */,
+				E805C64D1E89AD3F00D6CA43 /* ViewController.swift */,
 				E805C65D1E89AE2900D6CA43 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8E387441E8AFCEC00225AAB /* CalculatorBrain.swift in Sources */,
 				E805C64E1E89AD3F00D6CA43 /* ViewController.swift in Sources */,
 				E805C64C1E89AD3F00D6CA43 /* AppDelegate.swift in Sources */,
 			);
@@ -312,6 +316,7 @@
 				E805C65C1E89AD3F00D6CA43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
