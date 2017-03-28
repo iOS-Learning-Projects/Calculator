@@ -38,11 +38,10 @@ class ViewController: UIViewController {
         userIsInTheMiddleOfTyping = false
         if let mathematicalSymbol = sender.currentTitle {
             switch mathematicalSymbol {
-            case "pi":
+            case "π":
                 displayValue = Double.pi
             case "√":
-                let operand = Double(display.text!)!
-                displayValue = sqrt(operand)
+                displayValue = sqrt(displayValue)
             default:
                 break
             }
