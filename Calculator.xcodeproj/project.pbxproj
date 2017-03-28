@@ -59,6 +59,7 @@
 				E8E387431E8AFCEC00225AAB /* CalculatorBrain.swift */,
 				E805C64F1E89AD3F00D6CA43 /* Main.storyboard */,
 				E805C64D1E89AD3F00D6CA43 /* ViewController.swift */,
+				E8E387451E8B066000225AAB /* New Group */,
 				E805C65D1E89AE2900D6CA43 /* Supporting Files */,
 			);
 			path = Calculator;
@@ -73,6 +74,13 @@
 				E805C6571E89AD3F00D6CA43 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8E387451E8B066000225AAB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
